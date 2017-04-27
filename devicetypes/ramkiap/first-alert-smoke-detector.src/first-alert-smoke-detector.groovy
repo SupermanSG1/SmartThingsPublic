@@ -13,7 +13,7 @@
  * Modified by ramkiap - 4/26/2017
  */
 metadata {
-	definition (name: "First Alert Smoke Detector", namespace: "ramkiap", author: "SmartThings/ramkiap") {
+	definition (name: "First Alert Smoke Detector", namespace: "smartthings", author: "SmartThings") {
 		capability "Smoke Detector"
 		capability "Sensor"
 		capability "Battery"
@@ -38,7 +38,7 @@ metadata {
 	tiles (scale: 2){
 		multiAttributeTile(name:"smoke", type: "lighting", width: 6, height: 4){
 			tileAttribute ("device.alarmState", key: "PRIMARY_CONTROL") {
-				attributeState("clear", label:"CLEAR", icon:"st.alarm.smoke.clear", backgroundColor:"#00ff00")
+				attributeState("clear", label:"CLEAR", icon:"st.alarm.smoke.clear", backgroundColor:"#ffffff")
 				attributeState("smoke", label:"SMOKE", icon:"st.alarm.smoke.smoke", backgroundColor:"#e86d13")
 				attributeState("tested", label:"TEST", icon:"st.alarm.smoke.test", backgroundColor:"#e86d13")
 			}
