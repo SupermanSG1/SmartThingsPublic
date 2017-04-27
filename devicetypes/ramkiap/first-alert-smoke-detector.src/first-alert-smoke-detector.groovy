@@ -13,7 +13,7 @@
  * Modified by ramkiap - 4/26/2017
  */
 metadata {
-	definition (name: "First Alert Smoke Detector", namespace: "smartthings", author: "SmartThings") {
+	definition (name: "First Alert Smoke Detector", namespace: "ramkiap", author: "SmartThings") {
 		capability "Smoke Detector"
 		capability "Sensor"
 		capability "Battery"
